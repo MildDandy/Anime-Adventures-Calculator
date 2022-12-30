@@ -95,7 +95,13 @@ function roll_trait(){
 function GFG_Fun(image) {
     var img = document.createElement('img');
     img.src = 'img/assets/sprites/traits/' + image + ".png";
-    document.getElementById('icon').appendChild(img);
+    if(rerolls == 0){
+        document.getElementById('icon').appendChild(img);
+    }
+    else{
+        document.getElementById("icon").insertBefore(img, document.getElementById("icon").children[0]);
+    }
+
 }
 
 function reset(){
