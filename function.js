@@ -94,7 +94,7 @@ function roll_trait(){
 
 function GFG_Fun(image) {
     var img = document.createElement('img');
-    img.src = '/img/assets/sprites/traits/' + image + ".png";
+    img.src = 'img/assets/sprites/traits/' + image + ".png";
     document.getElementById('icon').appendChild(img);
 }
 
