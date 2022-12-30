@@ -1,3 +1,8 @@
+
+body{
+  background-color: black;
+  color:silver
+}
 span{
   font-weight: bold;
 }
@@ -6,24 +11,29 @@ ul{
   padding: 5px;
   margin: 5px;
 }
-table{
+table, button{
   font-family: 'Fredoka One', cursive;
 }
 
 .rare{
   color: #0d8cff;
+  font-family: 'Fredoka One', cursive;
 }
 .epic{
   color: #7c04f5;
+  font-family: 'Fredoka One', cursive;
 }
 .legendary{
   color: #ffc71e;
+  font-family: 'Fredoka One', cursive;
 }
 .mythic{
   background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  font-family: 'Fredoka One', cursive;
 }
 .secret{
   color: #e01419;
+  font-family: 'Fredoka One', cursive;
 }
 
 img {
@@ -32,7 +42,7 @@ img {
 }
 
 .game-font{
-
+  font-family: 'Fredoka One', cursive;
 }
 
 td {
@@ -60,3 +70,7 @@ table{
 |<span class="game-font-face" style="color: #565456;">Unknown</span>
 }}<noinclude>{{Doc}}</noinclude>
 */
+
+#trait{
+  font-size: 25px;
+}
