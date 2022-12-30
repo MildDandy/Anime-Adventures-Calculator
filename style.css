@@ -1,0 +1,85 @@
+
+body{
+  background-color: black;
+  color:silver
+}
+span{
+  font-weight: bold;
+}
+ul{
+  /*list-style-image: url("gifs/kyoob2.gif");*/
+  padding: 5px;
+  margin: 5px;
+}
+table, button{
+  font-family: 'Fredoka One', cursive;
+}
+
+.rare{
+  color: #0d8cff;
+  font-family: 'Fredoka One', cursive;
+}
+.epic{
+  color: #7c04f5;
+  font-family: 'Fredoka One', cursive;
+}
+.legendary{
+  color: #ffc71e;
+  font-family: 'Fredoka One', cursive;
+}
+.mythic{
+  background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  font-family: 'Fredoka One', cursive;
+}
+.secret{
+  color: #e01419;
+  font-family: 'Fredoka One', cursive;
+}
+
+img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.game-font{
+  font-family: 'Fredoka One', cursive;
+}
+
+td {
+
+  border-radius: 10px;
+  padding: 5px;
+}
+
+table{
+  border: 1px solid;
+}
+
+
+#middle_column{
+  
+}
+
+.GFG {
+  color: white;
+  font-size: 50px;
+  text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+               1px -1px 0 #000,
+              -1px -1px 0 #000;
+}
+
+/*
+{{#switch: {{{1}}}
+| Secret =<span class="game-font-face" style="color: #e01419;">Secret</span>
+| Mythic | Mythical = <span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Mythical<span class="Tsh(Game) mobile-hidden" style="position: absolute; z-index: -1; left: 0;">Mythical</span></span>
+| Legendary =<span class="Tsh(Game) game-font-face" style="color: #ffc71e;">Legendary</span>
+| Epic =<span class="game-font-face" style="color: #7c04f5;">Epic</span>
+| Rare =<span class="game-font-face" style="color: #0d8cff;">Rare</span>
+|<span class="game-font-face" style="color: #565456;">Unknown</span>
+}}<noinclude>{{Doc}}</noinclude>
+*/
+
+#trait{
+  font-size: 25px;
+}
